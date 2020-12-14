@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#container {
+min-height: 100%;
+}
+
+body {
+    background-image: url(Images/2.jpg);
+    background-size: cover;
+    background-color: #ffffff;
+   }
+#body {
+    overflow: auto;
+    padding-bottom: 100px;
+    background-image: url(Images/2.jpg);
+    background-size: cover;
+    background-color: #ffffff;
+   }
+   
+.menubar{
+    position: absolute;
+    height: 500px;
+    width: 200px;
+    border-width: 7px;
+    bottom: 100px;
+    left: 40px;
+}
+   
+   .boxstyle {
+    background-color: #ffffffef;
+    padding: 35px;
+    width: 650px;
+    height: 450px;
+    position: absolute;
+    margin-top: -610px;
+    margin-left: 300px;
+    display: block; 
+    border: none;
+    font: normal 65px/normal "W95FA", Helvetica, sans-serif;
+    color: rgb(56, 56, 56);
+    text-align:left;
+    text-overflow: clip;
+    font-size: 19px;
+   }
+   .gallery {
+    background-color: #ffffffef;
+    padding: -30px;
+    width: 635px;
+    position: absolute;
+    padding: 40px 
+    float: left;
+    margin-top: -610px;
+    margin-left: 300px;
+    display: block; 
+    border: none;
+    font: normal 65px/normal "W95FA", Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align:left;
+    text-overflow: clip;
+    font-size: 19px;
+   }
+.imagestyle {
+    padding: 5px;
+    width: 800px;
+    position: relative;
+    float: left;
+    margin-top: -600px;
+    margin-left: 400px;
+   }
+   .music {
+    padding: 5px;
+    width: 800px;
+    position: relative;
+    float: left;
+    margin-top: -614px;
+    margin-left: 400px;
+   }
+.welcome {
+    box-sizing: content-box;
+    margin-top: 10px ;
+    border: none;
+    font: normal 65px/normal "Anton", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    text-overflow: clip;
+    font-size: 80px;
+  }
+.me {
+  display: block;
+  margin: 0 auto; 
+  border: none;
+  font: normal 65px/normal "W95FA", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  left: 20px;
+  text-overflow: clip;
+  font-size: 19px;
+}
+#footer {
+    background-color: #BFBFBF;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+}
+footer {
+    display: flex;
+
+.iconstyle {
+     display: flex;
+     float: left;
+     display: block;
+     
+footer > div {
+    flex: 1;
+    display: flex;
